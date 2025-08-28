@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text {
+  color: #ff0000;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  animation: text 5s linear infinite;
+}
+
+@keyframes text {
+  0% {
+    font-size: 50px;
+    color: #ff0000;
+  }
+
+  16% {
+    color: #ff8800;
+  }
+
+  33% {
+    color: #ffff00;
+  }
+
+  50% {
+    font-size: 100px;
+    color: #00ff00;
+  }
+
+  66% {
+    color: #0000ff;
+  }
+
+  83% {
+    color: #a200ff;
+  }
+
+  100% {
+    font-size: 50px;
+    color: #ff0000;
+  }
+}
